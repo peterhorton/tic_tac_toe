@@ -1,0 +1,87 @@
+	*{
+		padding: 0;
+		margin: 0;
+	}
+
+
+	.content-container{
+		background-color: #FFF;
+		height:400px;
+		margin: auto;
+		box-shadow: 0 0 4px  #000000;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+		width:90%;
+		margin-top: 20px;
+	}
+
+	#board{
+
+	}
+
+	#versus{
+		display: block;
+		width: 250px;
+		float: left;
+		box-shadow: 0 0 4px  #000000;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		border-radius: 20px;
+		text-align: center;
+		margin: 30px;
+		padding: 10px;
+	}
+
+	#computer-options{
+		margin-top: 10px;
+		visibility: hidden;
+	}
+
+	#num-players{
+		visibility: hidden;
+	}
+
+	.choose{
+		width: 60px;
+	}
+
+	table{
+		padding-left: 100px;
+		padding-top: 10px;
+		display: inline-block;
+	}
+
+	.square{
+		width:100px;
+		height:100px;
+		font-size: 30px;
+		text-align: center;	
+	}
+
+	.v{
+		border-top: 1px solid #000;
+		border-bottom: 1px solid #000;
+	}
+
+	.h{
+		border-left: 1px solid #000;
+		border-right: 1px solid #000;
+	}
+
+	
+	.winner-display{
+		margin: auto;
+		text-align: center;
+		margin-top: 20px
+	}
+
+	.new-game{
+		visibility: hidden;
+		margin: auto;
+		text-align: center;
+		margin-top: 10px;
+		display: block;
+
+	}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Tic Tac Toe</title>
+			<link rel="stylesheet" type="text/css" href="mystyle.css">
+			<script type="text/javascript" src="jquery-2.2.4.min.js"></script>
+			<script type="text/javascript" src="script.js"></script>
+ 		</head>
+
+		<body>
+			
+
+			<div class="content-container">
+				<div id="board">
+					<div id="versus">
+						<div id="first-player">
+						Who goes first?<br>
+							<button class = "choose x">
+								Computer
+							</button>
+							<button class = "choose y">
+								Me
+							</button>
+							<br>
+						</div>
+						<div id="num-players">
+							Number of Players:
+							<br>
+							<button class="pick friend">
+								2 players
+							</button>
+							<button class="pick computer">
+								1 player
+							</button>
+						</div>
+						<div id="computer-options">
+							Computer Difficulty:
+							<br>
+							<button class="cpu easy">
+								Easy
+							</button>
+							<button class="cpu hard">
+								Hard
+							</button>
+						</div>
+					</div>
+						<table>
+							<tr row="0">
+								<td class="square" col="0" ></td>
+								<td class="square h" col="1"></td>
+								<td class="square" col="2"></td>
+							</tr>
+							<tr row="1">
+								<td class="square v" col="0"></td>
+								<td class="square h v" col="1"></td>
+								<td class="square v" col="2"></td>
+							</tr>
+							<tr row="2">
+								<td class="square" col="0"></td>
+								<td class="square h" col="1"></td>
+								<td class="square" col="2"></td>
+							</tr>
+						</table>
+						<div class="winner-display">
+						</div>
+						<button class="new-game">
+							New Game
+						</button>
+				</div> <!--board-->
+			</div><!--content-container-->
+		</body>
+	</html>
